@@ -1,18 +1,18 @@
-.small {
+.king {
     padding:20px;
     border-radius: 4px;
     background-color: aliceblue;
     margin: 5px;
 }
 
-.medium {
+.tower {
     padding:20px;
     background-color: aliceblue;
     border-radius: 4px;
     margin: 5px;
 }
 
-.large {
+.fellow {
     padding:20px;
     background-color: aliceblue;
     border-radius: 4px;
@@ -31,11 +31,11 @@
       background-color: rgb(99, 0, 21);
       font-size: 25px;
     }
-    .large {
+    .fellow {
         
     }
 
-    .medium {
+    .tower {
         
     }
     }
@@ -49,20 +49,20 @@
     font-size : 17px;
       background-color: rgb(92, 70, 0);
     }
-    .large {
+    .fellow {
         width:33%;
         
     }
+    .tower {
 
-    .small {
+        width: 66%;
+    }
+    .king {
 
-        width: 33%;
+        width: 100%;
     }
 
-    .medium {
-
-        width: 33%;
-    }
+  
 
   }
 /*for pc*/
@@ -71,15 +71,15 @@ body {
     background-color: rgb(0, 99, 49);
     font-size: 15px;
 }
-.large {
+.fellow {
     width:33%
 }
 
-.small {
+.king {
     width: 33%;
 }
 
-.medium {
+.tower {
     width: 33%;
 }
 
