@@ -1,41 +1,69 @@
+.small {
+    padding:20px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.medium {
+    padding:20px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.large {
+    padding:20px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin: 5px;
+}
+.main-wrapper {
+    display:flex;
+}
 /*for mobile phones*/
-@media only screen and (min-width: 300px) and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
+
+    .main-wrapper {
+        flex-direction: column;
+    }
     body {
-      background-color: rgb(253, 142, 166);
+      background-color: rgb(99, 0, 21);
       font-size: 25px;
-    }
-    .small {
-        padding:20px;
-        border-radius: 4px;
-        background-color: aliceblue;
-    }
-    .medium {
-        display: none;
     }
     .large {
         
-        display: none;
     }
-}
+
+    .medium {
+        
+    }
+    }
     /* for tablet */
 @media only screen and (min-width: 641px) and (max-width: 768px) {
+    .main-wrapper {
+        flex-direction: row;
+    }
 
     body {
     font-size : 17px;
       background-color: rgb(92, 70, 0);
     }
+    .large {
+        width:33%;
+        
+    }
+
+    .small {
+
+        width: 33%;
+    }
 
     .medium {
-        padding:20px;
-        background-color: aliceblue;
-        border-radius: 4px;
+
+        width: 33%;
     }
-    .small {
-        display: none;
-    }
-    .large {
-        display: none;
-    }
+
   }
 /*for pc*/
 @media only screen and (min-width: 769px) and (max-width: 1920px) {
@@ -43,16 +71,16 @@ body {
     background-color: rgb(0, 99, 49);
     font-size: 15px;
 }
-
 .large {
-    padding:20px;
-    background-color: aliceblue;
-    border-radius: 4px;
+    width:33%
 }
+
 .small {
-    display: none;
+    width: 33%;
 }
+
 .medium {
-    display: none;
+    width: 33%;
 }
+
 }
